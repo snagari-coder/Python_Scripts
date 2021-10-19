@@ -1,0 +1,32 @@
+In Python, we can pass a variable number of arguments to a function using special symbols. There are two special symbols:
+
+*args (Non Keyword Arguments)
+**kwargs (Keyword Arguments)
+We use *args and **kwargs as an argument when we are unsure about the number of arguments to pass in the functions.
+
+Things to Remember:
+*args and **kwargs are special keyword which allows function to take variable length argument.
+*args passes variable number of non-keyworded arguments list and on which operation of the list can be performed.
+**kwargs passes variable number of keyword arguments dictionary to function on which operation of a dictionary can be performed.
+*args and **kwargs make the function flexible.
+
+https://www.programiz.com/python-programming/args-and-kwargs
+  
+#############################################################################################################################################
+
+re.compile(pattern, flags=0)
+Compile a regular expression pattern into a regular expression object, which can be used for matching using its match(), search() and other methods, described below.
+
+The expression’s behaviour can be modified by specifying a flags value. Values can be any of the following variables, combined using bitwise OR (the | operator).
+
+The sequence
+
+prog = re.compile(pattern)
+result = prog.match(string)
+is equivalent to
+
+result = re.match(pattern, string)
+but using re.compile() and saving the resulting regular expression object for reuse is more efficient when the expression will be used several times in a single program.
+
+##################################################################################################################################################
+
